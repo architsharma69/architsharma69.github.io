@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{name}}</title>
+  <meta name="description" content="{{tagline}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{name}}">
+  <meta property="og:description" content="{{tagline}}">
+  <meta property="og:url" content="{{site_url}}">
+  <meta property="og:image" content="{{site_url}}/{{photo}}">
+  <meta name="theme-color" content="#121212">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <img class="avatar" src="{{photo}}" alt="Photo of {{name}}" width="140" height="140">
+      <div class="intro-text">
+        <h1>{{name}}</h1>
+        <p class="tagline">{{tagline}}</p>
+        <div class="bio">{{bio}}</div>
+        <ul class="links">{{intro_links}}</ul>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+{{projects}}
+      </div>
+    </section>
+{{wip_section}}
+  </main>
+
+  <footer>
+    <p>&copy; {{year}} {{name}}</p>
+  </footer>
+</body>
+</html>
