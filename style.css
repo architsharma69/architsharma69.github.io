@@ -84,12 +84,12 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
   text-decoration: none;
 }
 
-/* ---------- Projects / Works in progress ---------- */
+/* ---------- Projects / Team projects / Works in progress ---------- */
 
 .projects { padding-top: 3rem; }
-.projects > h2, .wip > h2 { font-size: 1.6rem; margin-bottom: 1.5rem; }
+.projects > h2, .team > h2, .wip > h2 { font-size: 1.6rem; margin-bottom: 1.5rem; }
 
-.wip {
+.team, .wip {
   margin-top: 3.5rem;
   padding-top: 3rem;
   border-top: 1px solid var(--border);

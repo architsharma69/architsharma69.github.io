@@ -10,4 +10,4 @@ linkedin: https://www.linkedin.com/in/archit-sharma-a4a1252b7
 
 I'm a Maths student interested in AI and Finance. I look for opportunities to apply my Maths knowledge and problem-solving skills to real-world problems. I enjoy working through problems on my own and engaging in independent learning; I'm always working on a self-led project.
 
-I enjoy diving (as you can probably tell from the picture) and macro photography. Check out my photography account: [@archit.macrophotography](https://www.instagram.com/archit.macrophotography/)
+I enjoy diving (as you can probably tell) and macro photography. Check out my photography account: [@archit.macrophotography](https://www.instagram.com/archit.macrophotography/)

@@ -119,6 +119,7 @@ def main() -> None:
     if not project_cards:
         sys.exit("No project files found in content/projects/")
 
+    team_cards = render_cards(CONTENT / "team")
     wip_cards = render_cards(CONTENT / "wip")
 
     site_url = intro["site_url"].rstrip("/")
@@ -130,6 +131,7 @@ def main() -> None:
         "bio": to_html(bio),
         "intro_links": render_intro_links(intro),
         "projects": "\n".join(project_cards),
+        "team_section": wrap_section(team_cards, "Team Projects", "team"),
         "wip_section": wrap_section(wip_cards, "Works in Progress", "wip"),
         "year": str(date.today().year),
     }
@@ -139,7 +141,10 @@ def main() -> None:
         html = html.replace("{{" + key + "}}", value)
 
     (ROOT / "index.html").write_text(html, encoding="utf-8")
-    print(f"Built index.html ({len(project_cards)} project(s), {len(wip_cards)} WIP)")
+    print(
+        f"Built index.html ({len(project_cards)} project(s), "
+        f"{len(team_cards)} team, {len(wip_cards)} WIP)"
+    )
 
 
 if __name__ == "__main__":
