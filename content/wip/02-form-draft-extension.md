@@ -3,7 +3,7 @@ title: FormDraft
 role: Creator
 period: 2026 - Present
 summary: A browser extension that scans online forms, saves them as editable local drafts, and pastes everything back in one step.
-tags: [Chrome Extension, JavaScript, React]
+tags: [Chrome Extension, JavaScript, React, Agent]
 image: assets/formdraft.jpeg   # optional; delete this line for a card with no thumbnail
 ---
 
